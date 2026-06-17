@@ -19,36 +19,6 @@ Language	TypeScript
 Styling	Tailwind CSS + shadcn/ui
 Logic	Rule-based keyword matching engine
 
-Project Structure
-src/
-├── components/
-│   ├── Chatbot.tsx          # Main chat container & state
-│   ├── ChatHeader.tsx       # Header with bot name + status
-│   ├── ChatMessage.tsx      # User/bot message bubble
-│   ├── ChatInput.tsx        # Input field + send button
-│   ├── TypingIndicator.tsx  # Animated typing dots
-│   └── QuickReplies.tsx     # Suggested starter questions
-├── lib/
-│   └── chatbot.ts           # Knowledge base + matching engine
-└── pages/
-    └── Index.tsx            # Main page
-Getting Started
-Prerequisites
-Node.js 18+ and npm (or bun)
-Installation
-
-
-# Install dependencies
-npm install
-
-# Start the dev server
-npm run dev
-Open http://localhost:5173 in your browser.
-
-Build for production
-npm run build
-npm run preview
-
 How It Works
 PyBot uses a simple but effective keyword matching algorithm:
 
